@@ -3,7 +3,7 @@ project(dbow2_catkin)
 
 find_package(catkin_simple REQUIRED)
 catkin_simple(ALL_DEPS_REQUIRED)
-
+set(CATKIN_INSTALL True)
 include(ExternalProject)
 
 file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
